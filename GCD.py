@@ -1,4 +1,5 @@
-def gcd(a, b):
+“# Greatest Common Divisor algorithm
+def gcd(a, b): 
     while b:
         a, b = b, a % b
     return a
